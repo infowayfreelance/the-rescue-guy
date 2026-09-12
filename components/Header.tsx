@@ -26,7 +26,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-margin-sm lg:px-margin pt-space-xs pointer-events-auto">
         <div className="h-20 bg-surface-container-lowest/70 backdrop-blur-xl border border-outline-variant/30 rounded-2xl px-space-md lg:px-space-lg flex items-center justify-between shadow-[0_8px_32px_0_rgba(0,0,0,0.5)] transition-all duration-300">
           <Link href="/" className="flex items-center gap-space-md cursor-pointer">
-            <img alt="The Road Rescue Guys" className="h-14 md:h-16 w-auto object-contain" src={LOGO_SRC} width={450} height={150} loading="eager" decoding="async" fetchPriority="high" />
+            <img alt="The Road Rescue Guys" className="h-14 md:h-16 w-auto object-contain" src={LOGO_SRC} width={260} height={87} loading="eager" decoding="async" fetchPriority="high" />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1 bg-surface-container-low/60 p-1 rounded-xl border border-outline-variant/20">

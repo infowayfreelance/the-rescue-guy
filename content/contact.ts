@@ -309,7 +309,7 @@ export const contactHtml = `<div class="fixed inset-0 pointer-events-none overfl
 <div class="grid grid-cols-1 md:grid-cols-2 gap-space-md items-center">
 <!-- Visual 1: Motorway Scene -->
 <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-surface-container-low group min-h-[300px]">
-<img alt="Recovery truck assisting a motorist on a UK motorway hard shoulder in daylight" class="w-full h-80 object-cover brightness-90 group-hover:scale-105 transition-transform duration-700" src="/motorway-hard-shoulder-assist.webp" width="850" height="478" loading="eager" decoding="async" fetchpriority="high"/>
+<img alt="Recovery truck assisting a motorist on a UK motorway hard shoulder in daylight" class="w-full h-80 object-cover brightness-90 group-hover:scale-105 transition-transform duration-700" src="/motorway-hard-shoulder-assist.webp" width="560" height="315" loading="eager" decoding="async" fetchpriority="high"/>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/40 to-transparent"></div>
 <div class="absolute bottom-0 inset-x-0 p-space-md lg:p-space-lg flex flex-col">
 <span class="px-2.5 py-1 rounded-md bg-secondary-container/90 text-white font-label-sm text-label-sm uppercase tracking-wider w-max mb-2">Motorway Quick-Response</span>
@@ -319,7 +319,7 @@ export const contactHtml = `<div class="fixed inset-0 pointer-events-none overfl
 </div>
 <!-- Visual 2: Flatbed Loading in Adverse Weather -->
 <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-surface-container-low group min-h-[300px]">
-<img alt="Recovery truck winching an electric vehicle onto a flatbed in daylight" class="w-full h-80 object-cover brightness-90 group-hover:scale-105 transition-transform duration-700" src="/ev-winch-recovery-daylight.webp" width="850" height="637" loading="lazy" decoding="async"/>
+<img alt="Recovery truck winching an electric vehicle onto a flatbed in daylight" class="w-full h-80 object-cover brightness-90 group-hover:scale-105 transition-transform duration-700" src="/ev-winch-recovery-daylight.webp" width="560" height="420" loading="lazy" decoding="async"/>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/40 to-transparent"></div>
 <div class="absolute bottom-0 inset-x-0 p-space-md lg:p-space-lg flex flex-col">
 <span class="px-2.5 py-1 rounded-md bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase tracking-wider w-max mb-2">All-Weather EV Handling</span>
