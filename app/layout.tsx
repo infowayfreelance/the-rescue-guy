@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import IconFontLoader from "@/components/IconFontLoader";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -19,16 +20,22 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`dark ${plusJakartaSans.variable}`}>
+    <html lang="en" className={`dark ${plusJakartaSans.variable}`} style={{ backgroundColor: "#0d131f", colorScheme: "dark" }}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100..700,0..1,0&display=swap"
-        />
+        <IconFontLoader />
+        <noscript>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100..700,0..1,0&display=swap"
+          />
+        </noscript>
       </head>
-      <body className="bg-background font-body-md text-on-surface relative min-h-screen selection:bg-primary selection:text-on-primary-fixed">
+      <body
+        className="bg-background font-body-md text-on-surface relative min-h-screen selection:bg-primary selection:text-on-primary-fixed"
+        style={{ backgroundColor: "#0d131f", color: "#dde2f3" }}
+      >
         <Header />
         {children}
         <Footer />
