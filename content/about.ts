@@ -99,7 +99,7 @@ export const aboutHtml = `<div class="fixed inset-0 pointer-events-none overflow
 <!-- Left: Image Command Center -->
 <div class="lg:col-span-7 flex flex-col gap-space-sm">
 <div class="relative rounded-3xl overflow-hidden shadow-2xl bg-surface-container-low group">
-<img alt="The Road Rescue Guys state of the art telematics command centre with glowing map screens and operators dispatching recovery assets" class="w-full h-[460px] object-cover transition-transform duration-700 group-hover:scale-105" src="/command-centre-dispatch.webp"/>
+<img alt="The Road Rescue Guys state of the art telematics command centre with glowing map screens and operators dispatching recovery assets" class="w-full h-[460px] object-cover transition-transform duration-700 group-hover:scale-105" src="/command-centre-dispatch.webp" width="1200" height="900" loading="eager" decoding="async" fetchpriority="high"/>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent opacity-80"></div>
 <!-- Floating Live Status Overlay -->
 <div class="absolute bottom-6 left-6 right-6 p-space-md rounded-2xl bg-surface-container-high/90 backdrop-blur-xl shadow-xl flex flex-wrap items-center justify-between gap-space-sm">
@@ -190,7 +190,7 @@ export const aboutHtml = `<div class="fixed inset-0 pointer-events-none overflow
 </div>
 <!-- Fleet Depot Feature Image Showcase -->
 <div class="relative w-full rounded-3xl overflow-hidden shadow-2xl bg-surface-container-low group">
-<img alt="The Road Rescue Guys depot at dusk featuring our illuminated fleet of high-visibility yellow tilt and slide recovery trucks and emergency response vans" class="w-full h-80 sm:h-96 lg:h-[480px] object-cover transition-transform duration-700 group-hover:scale-105" src="/depot-fleet-daylight.webp"/>
+<img alt="The Road Rescue Guys depot at dusk featuring our illuminated fleet of high-visibility yellow tilt and slide recovery trucks and emergency response vans" class="w-full h-80 sm:h-96 lg:h-[480px] object-cover transition-transform duration-700 group-hover:scale-105" src="/depot-fleet-daylight.webp" width="1200" height="675" loading="lazy" decoding="async"/>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/30 to-transparent"></div>
 <div class="absolute bottom-6 left-6 right-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md">
 <div class="flex items-center gap-4">

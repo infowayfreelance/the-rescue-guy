@@ -3,7 +3,7 @@ export const homeHtml = `<div class="fixed inset-0 pointer-events-none overflow-
 <section class="relative w-full -mt-20 pt-24 pb-20 overflow-hidden">
 <!-- Hero Background Image & Atmospheric Scrim -->
 <div class="absolute inset-0 z-0">
-<img alt="Recovery operative assisting a stranded motorist on a UK motorway hard shoulder in daylight" class="w-full h-full object-cover object-center filter brightness-[0.45] contrast-125 scale-105 transform duration-1000" src="/hero-motorway-assistance.webp"/>
+<img alt="Recovery operative assisting a stranded motorist on a UK motorway hard shoulder in daylight" class="w-full h-full object-cover object-center filter brightness-[0.45] contrast-125 scale-105 transform duration-1000" src="/hero-motorway-assistance.webp" width="1200" height="675" loading="eager" decoding="async" fetchpriority="high"/>
 <div class="absolute inset-0 bg-gradient-to-b from-surface-container-lowest/80 via-surface-container-lowest/70 to-background"></div>
 <div class="absolute inset-0 bg-radial from-transparent via-background/40 to-background"></div>
 </div>
@@ -100,7 +100,7 @@ export const homeHtml = `<div class="fixed inset-0 pointer-events-none overflow-
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
 <article class="flex flex-col rounded-2xl bg-surface-container-low/75 backdrop-blur-2xl shadow-xl overflow-hidden group transition-all duration-300 hover:shadow-2xl">
 <div class="relative w-full h-52 overflow-hidden">
-<img alt="Heavy tilt tray recovery truck loading a car in daylight on a UK highway" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/tilt-tray-recovery-daylight.webp"/>
+<img alt="Heavy tilt tray recovery truck loading a car in daylight on a UK highway" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/tilt-tray-recovery-daylight.webp" width="1200" height="900" loading="lazy" decoding="async"/>
 </div>
 <div class="p-space-lg flex flex-col gap-space-sm flex-1">
 <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">24/7 Vehicle Recovery</h3>
@@ -110,7 +110,7 @@ export const homeHtml = `<div class="fixed inset-0 pointer-events-none overflow-
 </article>
 <article class="flex flex-col rounded-2xl bg-surface-container-low/75 backdrop-blur-2xl shadow-xl overflow-hidden group transition-all duration-300 hover:shadow-2xl">
 <div class="relative w-full h-52 overflow-hidden">
-<img alt="Recovery technician running roadside diagnostics on a broken-down car in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/breakdown-roadside-operator.webp"/>
+<img alt="Recovery technician running roadside diagnostics on a broken-down car in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/breakdown-roadside-operator.webp" width="1200" height="900" loading="lazy" decoding="async"/>
 </div>
 <div class="p-space-lg flex flex-col gap-space-sm flex-1">
 <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Car Breakdown Recovery</h3>
@@ -120,7 +120,7 @@ export const homeHtml = `<div class="fixed inset-0 pointer-events-none overflow-
 </article>
 <article class="flex flex-col rounded-2xl bg-surface-container-low/75 backdrop-blur-2xl shadow-xl overflow-hidden group transition-all duration-300 hover:shadow-2xl">
 <div class="relative w-full h-52 overflow-hidden">
-<img alt="Tilt and slide flatbed recovery truck securing a vehicle with soft wheel straps in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/flatbed-soft-strap-recovery.webp"/>
+<img alt="Tilt and slide flatbed recovery truck securing a vehicle with soft wheel straps in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/flatbed-soft-strap-recovery.webp" width="1200" height="900" loading="lazy" decoding="async"/>
 </div>
 <div class="p-space-lg flex flex-col gap-space-sm flex-1">
 <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Accident Recovery</h3>
@@ -130,7 +130,7 @@ export const homeHtml = `<div class="fixed inset-0 pointer-events-none overflow-
 </article>
 <article class="flex flex-col rounded-2xl bg-surface-container-low/75 backdrop-blur-2xl shadow-xl overflow-hidden group transition-all duration-300 hover:shadow-2xl">
 <div class="relative w-full h-52 overflow-hidden">
-<img alt="Recovery truck assisting a motorist on a UK motorway hard shoulder in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/motorway-hard-shoulder-assist.webp"/>
+<img alt="Recovery truck assisting a motorist on a UK motorway hard shoulder in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/motorway-hard-shoulder-assist.webp" width="1200" height="675" loading="lazy" decoding="async"/>
 </div>
 <div class="p-space-lg flex flex-col gap-space-sm flex-1">
 <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Roadside Breakdown Assistance</h3>
@@ -140,7 +140,7 @@ export const homeHtml = `<div class="fixed inset-0 pointer-events-none overflow-
 </article>
 <article class="flex flex-col rounded-2xl bg-surface-container-low/75 backdrop-blur-2xl shadow-xl overflow-hidden group transition-all duration-300 hover:shadow-2xl">
 <div class="relative w-full h-52 overflow-hidden">
-<img alt="The Road Rescue Guys telematics dispatch command centre with live fleet tracking" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/command-centre-dispatch.webp"/>
+<img alt="The Road Rescue Guys telematics dispatch command centre with live fleet tracking" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/command-centre-dispatch.webp" width="1200" height="900" loading="lazy" decoding="async"/>
 </div>
 <div class="p-space-lg flex flex-col gap-space-sm flex-1">
 <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Emergency Recovery</h3>
@@ -150,7 +150,7 @@ export const homeHtml = `<div class="fixed inset-0 pointer-events-none overflow-
 </article>
 <article class="flex flex-col rounded-2xl bg-surface-container-low/75 backdrop-blur-2xl shadow-xl overflow-hidden group transition-all duration-300 hover:shadow-2xl">
 <div class="relative w-full h-52 overflow-hidden">
-<img alt="The Road Rescue Guys depot yard with a fleet of recovery trucks in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/depot-fleet-daylight.webp"/>
+<img alt="The Road Rescue Guys depot yard with a fleet of recovery trucks in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/depot-fleet-daylight.webp" width="1200" height="675" loading="lazy" decoding="async"/>
 </div>
 <div class="p-space-lg flex flex-col gap-space-sm flex-1">
 <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Vehicle Transportation</h3>
@@ -160,7 +160,7 @@ export const homeHtml = `<div class="fixed inset-0 pointer-events-none overflow-
 </article>
 <article class="flex flex-col rounded-2xl bg-surface-container-low/75 backdrop-blur-2xl shadow-xl overflow-hidden group transition-all duration-300 hover:shadow-2xl">
 <div class="relative w-full h-52 overflow-hidden">
-<img alt="Tow truck transporting a vehicle along a UK motorway in clear daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/tow-truck-motorway-transport.webp"/>
+<img alt="Tow truck transporting a vehicle along a UK motorway in clear daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/tow-truck-motorway-transport.webp" width="1200" height="675" loading="lazy" decoding="async"/>
 </div>
 <div class="p-space-lg flex flex-col gap-space-sm flex-1">
 <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Long Distance Recovery</h3>
@@ -170,7 +170,7 @@ export const homeHtml = `<div class="fixed inset-0 pointer-events-none overflow-
 </article>
 <article class="flex flex-col rounded-2xl bg-surface-container-low/75 backdrop-blur-2xl shadow-xl overflow-hidden group transition-all duration-300 hover:shadow-2xl">
 <div class="relative w-full h-52 overflow-hidden">
-<img alt="Recovery truck winching an electric vehicle onto a flatbed in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/ev-winch-recovery-daylight.webp"/>
+<img alt="Recovery truck winching an electric vehicle onto a flatbed in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/ev-winch-recovery-daylight.webp" width="1200" height="900" loading="lazy" decoding="async"/>
 </div>
 <div class="p-space-lg flex flex-col gap-space-sm flex-1">
 <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Motorway Recovery</h3>
@@ -212,7 +212,7 @@ export const homeHtml = `<div class="fixed inset-0 pointer-events-none overflow-
 <!-- Image Side -->
 <div class="lg:col-span-5 relative">
 <div class="rounded-3xl overflow-hidden shadow-2xl bg-surface-container aspect-4/5 relative">
-<img alt="Recovery technician securing a car's wheel with soft tie-down straps on a flatbed truck in daylight" class="w-full h-full object-cover" src="/why-choose-us-damage-free.webp"/>
+<img alt="Recovery technician securing a car's wheel with soft tie-down straps on a flatbed truck in daylight" class="w-full h-full object-cover" src="/why-choose-us-damage-free.webp" width="1120" height="1400" loading="lazy" decoding="async"/>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
 <!-- Floating Badge -->
 <div class="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-surface-container-high/90 backdrop-blur-2xl shadow-xl flex items-center gap-4">
@@ -322,7 +322,7 @@ export const homeHtml = `<div class="fixed inset-0 pointer-events-none overflow-
 <section class="py-16 max-w-7xl mx-auto px-margin-sm lg:px-margin w-full">
 <div class="rounded-3xl overflow-hidden bg-surface-container shadow-2xl grid grid-cols-1 lg:grid-cols-12">
 <div class="lg:col-span-7 relative min-h-[400px]">
-<img alt="Recovery technicians in high-visibility gear placing safety cones beside vehicles on a UK motorway in daylight" class="w-full h-full object-cover" src="/cinematic-high-vis-protocol.webp"/>
+<img alt="Recovery technicians in high-visibility gear placing safety cones beside vehicles on a UK motorway in daylight" class="w-full h-full object-cover" src="/cinematic-high-vis-protocol.webp" width="560" height="486" loading="lazy" decoding="async"/>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest lg:bg-gradient-to-r lg:from-transparent lg:to-surface-container"></div>
 <div class="absolute top-6 left-6 flex flex-wrap gap-2">
 <span class="px-3 py-1 rounded-full bg-surface-container-high/90 backdrop-blur-md text-on-surface font-label-sm text-label-sm">High-Vis Protocol</span>
@@ -537,7 +537,7 @@ export const homeHtml = `<div class="fixed inset-0 pointer-events-none overflow-
 <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
 <!-- Big Visual Card -->
 <div class="md:col-span-8 rounded-3xl overflow-hidden shadow-2xl relative min-h-[380px] group">
-<img alt="Recovery truck arriving at a breakdown scene on a UK motorway in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/gallery-motorway-deployment.webp"/>
+<img alt="Recovery truck arriving at a breakdown scene on a UK motorway in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/gallery-motorway-deployment.webp" width="536" height="486" loading="lazy" decoding="async"/>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/90 via-transparent to-transparent"></div>
 <div class="absolute bottom-6 left-6 right-6 flex items-center justify-between">
 <div>
@@ -550,14 +550,14 @@ export const homeHtml = `<div class="fixed inset-0 pointer-events-none overflow-
 <!-- Right 2 Stacked Cards -->
 <div class="md:col-span-4 flex flex-col gap-6">
 <div class="rounded-3xl overflow-hidden shadow-2xl relative h-[180px] group">
-<img alt="Close-up of a hydraulic winch cable loading a car onto a recovery truck in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/gallery-winch-loading.webp"/>
+<img alt="Close-up of a hydraulic winch cable loading a car onto a recovery truck in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/gallery-winch-loading.webp" width="755" height="446" loading="lazy" decoding="async"/>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 to-transparent"></div>
 <div class="absolute bottom-4 left-4">
 <span class="font-headline-sm text-sm font-bold text-on-surface">Damage-Free Winch Loading</span>
 </div>
 </div>
 <div class="rounded-3xl overflow-hidden shadow-2xl relative h-[180px] group">
-<img alt="Recovery truck transporting a car along a UK motorway in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/gallery-long-distance-relocation.webp"/>
+<img alt="Recovery truck transporting a car along a UK motorway in daylight" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="/gallery-long-distance-relocation.webp" width="763" height="446" loading="lazy" decoding="async"/>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 to-transparent"></div>
 <div class="absolute bottom-4 left-4">
 <span class="font-headline-sm text-sm font-bold text-on-surface">Long Distance Logistics</span>

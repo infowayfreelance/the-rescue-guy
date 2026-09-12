@@ -309,7 +309,7 @@ export const contactHtml = `<div class="fixed inset-0 pointer-events-none overfl
 <div class="grid grid-cols-1 md:grid-cols-2 gap-space-md items-center">
 <!-- Visual 1: Motorway Scene -->
 <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-surface-container-low group min-h-[300px]">
-<img class="w-full h-80 object-cover brightness-90 group-hover:scale-105 transition-transform duration-700" data-alt="Heavy duty yellow recovery flatbed truck on UK M4 motorway shoulder during twilight with orange hazard warning beacons lit up. Certified recovery technician in hi-vis orange jacket assisting a motorist, with digital overhead gantry in background in dark cinematic atmospheric tones." src="/motorway-hard-shoulder-assist.webp"/>
+<img class="w-full h-80 object-cover brightness-90 group-hover:scale-105 transition-transform duration-700" data-alt="Heavy duty yellow recovery flatbed truck on UK M4 motorway shoulder during twilight with orange hazard warning beacons lit up. Certified recovery technician in hi-vis orange jacket assisting a motorist, with digital overhead gantry in background in dark cinematic atmospheric tones." src="/motorway-hard-shoulder-assist.webp" width="1200" height="675" loading="eager" decoding="async" fetchpriority="high"/>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/40 to-transparent"></div>
 <div class="absolute bottom-0 inset-x-0 p-space-md lg:p-space-lg flex flex-col">
 <span class="px-2.5 py-1 rounded-md bg-secondary-container/90 text-white font-label-sm text-label-sm uppercase tracking-wider w-max mb-2">Motorway Quick-Response</span>
@@ -319,7 +319,7 @@ export const contactHtml = `<div class="fixed inset-0 pointer-events-none overfl
 </div>
 <!-- Visual 2: Flatbed Loading in Adverse Weather -->
 <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-surface-container-low group min-h-[300px]">
-<img class="w-full h-80 object-cover brightness-90 group-hover:scale-105 transition-transform duration-700" data-alt="DAF heavy tilt slide recovery truck winching a modern electric vehicle onto a hydraulic steel bed during rainy night conditions on an illuminated UK dual carriageway. High-intensity amber LED work lights, water reflections on asphalt, industrial precision aesthetic." src="/ev-winch-recovery-daylight.webp"/>
+<img class="w-full h-80 object-cover brightness-90 group-hover:scale-105 transition-transform duration-700" data-alt="DAF heavy tilt slide recovery truck winching a modern electric vehicle onto a hydraulic steel bed during rainy night conditions on an illuminated UK dual carriageway. High-intensity amber LED work lights, water reflections on asphalt, industrial precision aesthetic." src="/ev-winch-recovery-daylight.webp" width="1200" height="900" loading="lazy" decoding="async"/>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/40 to-transparent"></div>
 <div class="absolute bottom-0 inset-x-0 p-space-md lg:p-space-lg flex flex-col">
 <span class="px-2.5 py-1 rounded-md bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase tracking-wider w-max mb-2">All-Weather EV Handling</span>
