@@ -1,0 +1,1 @@
+import ClientEnhancements from "./ClientEnhancements"; export default function HtmlPage({html}:{html:string}){return <><div dangerouslySetInnerHTML={{__html:html}}/><ClientEnhancements/></>}

@@ -1,0 +1,15 @@
+"use client";
+import { useEffect } from "react";
+export default function ClientEnhancements(){
+ useEffect(()=>{
+  const cleanups: Array<()=>void> = [];
+  const filterButtons=document.querySelectorAll<HTMLButtonElement>("#categoryFilterContainer .filter-btn");
+  const cards=document.querySelectorAll<HTMLElement>("#servicesGrid .service-card");
+  filterButtons.forEach(button=>{ const handler=()=>{const value=button.getAttribute("data-filter"); filterButtons.forEach(btn=>{btn.classList.remove("bg-primary-container","text-on-primary-container","shadow-md");btn.classList.add("bg-surface-container-high/60","text-on-surface-variant")}); button.classList.remove("bg-surface-container-high/60","text-on-surface-variant");button.classList.add("bg-primary-container","text-on-primary-container","shadow-md"); cards.forEach(card=>{card.style.display=(value==="all"||card.getAttribute("data-category")===value)?"flex":"none"})}; button.addEventListener("click",handler); cleanups.push(()=>button.removeEventListener("click",handler)); });
+  document.querySelectorAll<HTMLButtonElement>("#faqAccordion button").forEach(btn=>{const handler=()=>{const content=btn.nextElementSibling as HTMLElement|null; const icon=btn.querySelector<HTMLElement>(".material-symbols-outlined"); if(!content)return; const hidden=content.classList.contains("hidden"); document.querySelectorAll<HTMLElement>("#faqAccordion > div").forEach(card=>{const c=card.querySelector<HTMLElement>("div:last-child"); const ic=card.querySelector<HTMLElement>(".material-symbols-outlined"); c?.classList.add("hidden"); if(ic)ic.style.transform="rotate(0deg)"}); if(hidden){content.classList.remove("hidden"); if(icon)icon.style.transform="rotate(180deg)"}}; btn.addEventListener("click",handler); cleanups.push(()=>btn.removeEventListener("click",handler));});
+  const locBtn=[...document.querySelectorAll<HTMLButtonElement>("button")].find(b=>/location|gps/i.test(b.textContent||""));
+  if(locBtn){const handler=()=>{const input=document.getElementById("breakdownLocation") as HTMLInputElement|null;if(!input)return;if(navigator.geolocation){input.value="Locating precise GPS...";navigator.geolocation.getCurrentPosition(p=>{input.value=`GPS: ${p.coords.latitude.toFixed(5)}, ${p.coords.longitude.toFixed(5)} (Auto-Acquired)`},()=>{input.value="Location permission denied. Please enter postcode manually."},{enableHighAccuracy:true,timeout:5000})}};locBtn.addEventListener("click",handler);cleanups.push(()=>locBtn.removeEventListener("click",handler));}
+  const dispatch=document.getElementById("dispatchForm") as HTMLFormElement|null; if(dispatch){const handler=(e:Event)=>{e.preventDefault(); const success=document.getElementById("dispatchSuccessMessage"); if(success){dispatch.classList.add("opacity-40","pointer-events-none");success.classList.remove("hidden");success.scrollIntoView({behavior:"smooth",block:"center"})}else{window.alert("Dispatch Request Received. An operator is calling your phone now.")}};dispatch.addEventListener("submit",handler);cleanups.push(()=>dispatch.removeEventListener("submit",handler));}
+  return()=>cleanups.forEach(fn=>fn());
+ },[]); return null;
+}

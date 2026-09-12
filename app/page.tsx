@@ -1,0 +1,1 @@
+import type { Metadata } from "next"; import HtmlPage from "@/components/HtmlPage"; import { homeHtml } from "@/content/home"; export const metadata: Metadata={title:"The Road Rescue Guys | 24/7 UK Vehicle Recovery"}; export default function Page(){return <HtmlPage html={homeHtml}/>}

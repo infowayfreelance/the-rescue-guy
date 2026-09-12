@@ -1,0 +1,1 @@
+import type { Metadata } from "next"; import HtmlPage from "@/components/HtmlPage"; import { servicesHtml } from "@/content/services"; export const metadata: Metadata={title:"Vehicle Recovery Services"}; export default function Page(){return <HtmlPage html={servicesHtml}/>}
