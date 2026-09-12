@@ -15,7 +15,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-margin-sm lg:px-margin flex flex-col gap-space-lg">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md border-b border-outline-variant/15 pb-space-md">
           <div className="flex items-center gap-3">
-            <img alt="The Road Rescue Guys" className="h-11 w-auto object-contain" src={LOGO_SRC} width={1000} height={333} loading="lazy" decoding="async" />
+            <img alt="The Road Rescue Guys" className="h-11 w-auto object-contain" src={LOGO_SRC} width={450} height={150} loading="lazy" decoding="async" />
             <span className="font-label-sm text-[11px] text-on-surface-variant">Rapid 24/7 UK Vehicle Assistance &amp; Recovery</span>
           </div>
           <div className="flex flex-wrap items-center gap-space-md">
