@@ -3,7 +3,9 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import IconFontLoader from "@/components/IconFontLoader";
+
+const MATERIAL_SYMBOLS_HREF =
+  "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100..700,0..1,0&display=swap";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -24,12 +26,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <IconFontLoader />
+        <link rel="stylesheet" href={MATERIAL_SYMBOLS_HREF} media="print" id="material-symbols-link" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(){var l=document.getElementById('material-symbols-link');if(!l)return;function a(){l.media='all';}if(l.sheet){a();}else{l.addEventListener('load',a);}})();",
+          }}
+        />
         <noscript>
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100..700,0..1,0&display=swap"
-          />
+          <link rel="stylesheet" href={MATERIAL_SYMBOLS_HREF} />
         </noscript>
       </head>
       <body
